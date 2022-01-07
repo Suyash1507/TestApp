@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp.MainPage"
+             BackgroundColor="#90B8F8">
+
+    <StackLayout>
+       
+        <Label Text="SWIFT" TextColor="White" FontSize="40" FontFamily="Bold" Padding="40,40,0,0"/>
+        <Image Source="plane.png" WidthRequest="300" HeightRequest="300" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Button
+                VerticalOptions="Center"
+                Text="One Tap"
+                x:Name="oneTap"
+                FontSize="30"
+                TextColor="White"
+                BackgroundColor="Black"
+                BorderWidth="1.5"
+                HeightRequest="60"
+                HorizontalOptions="Center"
+                WidthRequest="150" 
+                 Margin="0,0,0,60" Clicked="OneTap_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
